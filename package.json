@@ -1,0 +1,16 @@
+{
+    "name": "employeetrackermanager",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "seed": "node db/index.js"
+    },
+    "author": "Matthew Davis",
+    "dependencies": {
+      "console.table": "^0.10.0",
+      "inquirer": "^8.0.0",
+      "mysql2": "^2.3.3"
+    }
+  }
